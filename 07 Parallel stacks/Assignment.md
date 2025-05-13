@@ -1,0 +1,4 @@
+# Dealing with parallel applications
+Buiding modern applications often requires the use some form of parallelism. This can range from simple async/await to have concurrent requests for a web api, to creating your own threads in older desktop applications. However, debugging parallel applications can end up confusing. Some of the confusion can be resolved by using condional breakoints, but if you want to really understand the flow of your application, you can use the Parallel Stacks window in Visual Studio.
+
+[This tutorial](https://learn.microsoft.com/visualstudio/debugger/walkthrough-debugging-a-parallel-application?view=vs-2022&tabs=csharp#use-the-parallel-stacks-window-threads-view) covers the Parallel Stacks window in much more detail than I ever could, so head over there to get the hang of using the Parallel Stacks window.

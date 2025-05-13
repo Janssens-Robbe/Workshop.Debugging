@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Intoduction", "01 Intoduction\01 Intoduction.csproj", "{59A65F5A-7969-43CB-979F-4A3EC55E971C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Basics", "01 Basics\01 Basics.csproj", "{59A65F5A-7969-43CB-979F-4A3EC55E971C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Exceptions", "02 Exceptions\02 Exceptions.csproj", "{5D00B32D-168A-40E5-9D6A-559605CC7F3E}"
 EndProject
@@ -23,7 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Hot reload", "05 Hot rel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Attaching a debugger", "06 Attaching a debugger\06 Attaching a debugger.csproj", "{DDCD5EAE-C90A-4583-B15B-234D280CAB1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Performance analysis", "07 Performance analysis\07 Performance analysis.csproj", "{08E811C8-266E-4551-8E68-47AC70BFCDA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Performance analysis", "08 Performance analysis\08 Performance analysis.csproj", "{08E811C8-266E-4551-8E68-47AC70BFCDA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Parallel stacks", "07 Parallel stacks\07 Parallel stacks.csproj", "{AF18C07A-280E-4563-A964-45DE71457241}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{08E811C8-266E-4551-8E68-47AC70BFCDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08E811C8-266E-4551-8E68-47AC70BFCDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08E811C8-266E-4551-8E68-47AC70BFCDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF18C07A-280E-4563-A964-45DE71457241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF18C07A-280E-4563-A964-45DE71457241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF18C07A-280E-4563-A964-45DE71457241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF18C07A-280E-4563-A964-45DE71457241}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
