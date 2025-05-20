@@ -1,7 +1,7 @@
 # Attaching a debugger
 Sometimes you need to debug a process that is already running, for example when you want to debug a web application or a service. To do this, you can use the "Attach to Process" feature in Visual Studio. This feature allows you to attach the debugger to a running process and debug it like you would with your own code.
 
-To get started, build the entire solution in Release. Then go to "Workshop.Debugging\06 Attaching a debugger\bin\Release\net9.0" and start "06 Attaching a debugger.exe". 
+To get started, build the entire solution in Release. Then go to "Workshop.Debugging\06 Attaching a debugger\bin\Release\net9.0" and start "06 Attaching a debugger.exe". Note that because we build in release mode, we need to disable "Just my code".
 
 Go back to VS, and attatch the process using Debug > Attach to Process or by pressing Ctrl + Alt + P. In the dialog that appears, select the process you want to attach to. You can use the search bar to filter the processes by name or id. Once you have selected the process, click "Attach" to attach the debugger. It is also possible to start debugging an application on a remote machine using the connections drop down, which can be useful for debugging applications in a deployed dev environment.
 
